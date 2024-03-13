@@ -1,5 +1,5 @@
 
 mm90.l
-Drain_Current_90nm_vs_Vgs/Drain_Current_90nm_vs_Vgs.lis
-Drain_Current_90nm_vs_Vgs/Drain_Current_90nm_vs_Vgs.st0
-Drain_Current_90nm_vs_Vgs/Drain_Current_90nm_vs_Vgs.ic0
+*.lis
+*.st0
+*.ic0
