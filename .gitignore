@@ -3,3 +3,5 @@ mm90.l
 *.lis
 *.st0
 *.ic0
+scope.log
+stackTrace.file
