@@ -1,0 +1,23 @@
+integer value too large to represent
+    while executing
+"expr $percent + round(100.0 * $old_width/$new_width)"
+    (procedure "GrXY:ZoomAxesIn" line 55)
+    invoked from within
+"GrXY:ZoomAxesIn $graph $axes"
+    (procedure "Graph:ZoomAxesIn" line 17)
+    invoked from within
+"Graph:ZoomAxesIn $graph $axlist"
+    (procedure "Scope:ZoomInCmd" line 19)
+    invoked from within
+"Scope:ZoomInCmd"
+    ("uplevel" body line 1)
+    invoked from within
+"uplevel #0 $AimBarItem($w,command)"
+    (procedure "AimBarItem:invoke" line 5)
+    invoked from within
+"AimBarItem:invoke .ibar.biw14"
+    invoked from within
+"if { $AimBarItem(window) == ".ibar.biw14" } {
+            if {[lindex [.ibar.biw14 config -state] 4] != "disabled" } {
+	        AimBarItem:invoke .iba..."
+    (command bound to event)
