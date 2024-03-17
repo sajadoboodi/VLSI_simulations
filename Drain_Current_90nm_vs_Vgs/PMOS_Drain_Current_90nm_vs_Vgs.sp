@@ -11,11 +11,11 @@ Mp gnd g vdd vdd pmos l=100n w=120n
 
 vdd vdd 0 vddval
 
-vgs g gnd 0
+vgs g vdd 0
 
 *vds d gnd vddval
 
-.dc vgs 0 1.2 0.01
+.dc vgs 0 -1.2 0.01
 
 .probe -I(mp)
 .op
