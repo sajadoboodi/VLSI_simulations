@@ -1,0 +1,8 @@
+$DATA1 SOURCE='HSPICE' VERSION='P-2019.06-SP1-1 win64' PARAM_COUNT=0
+.TITLE 'cmos_inverter'
+ vm               vil              vih              vol             
+ voh              vmin             vmax             nmh             
+ nml              nm               temper           alter#          
+    0.4919           0.3423           0.5809         9.618e-02      
+    1.1323         1.976e-06          1.2000           0.5514       
+    0.2461           0.2461          25.0000        1               

@@ -7,7 +7,7 @@ PMOS_Drain_Current_90nm
 ***********
 .option post=2
 
-Mp gnd g vdd vdd pmos l=100n w=120n
+Mp gnd g vdd vdd pmos l=100n w=300n
 
 vdd vdd 0 vddval
 

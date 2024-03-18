@@ -1,0 +1,4 @@
+$DATA1 SOURCE='HSPICE' VERSION='P-2019.06-SP1-1 win64' PARAM_COUNT=0
+.TITLE 'cmos_stacked_inverter'
+ stpow            temper           alter#          
+  2.331e-09         25.0000        1               
