@@ -1,4 +1,7 @@
 $DATA1 SOURCE='HSPICE' VERSION='P-2019.06-SP1-1 win64' PARAM_COUNT=0
 .TITLE 'cmos_nand_fin4'
- stpow            temper           alter#          
   1.969e-09         25.0000        1               
+ tpcout1          tpcout2          tpcout3          tpcout4         
+ tpcout5          temper           alter#          
+  6.868e-11        2.635e-11        7.466e-11        2.750e-11      
+  7.684e-11         25.0000        1               
