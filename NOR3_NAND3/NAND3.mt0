@@ -1,0 +1,4 @@
+$DATA1 SOURCE='HSPICE' VERSION='P-2019.06-SP1-1 win64' PARAM_COUNT=0
+.TITLE 'nand3_cmos'
+ stpow            temper           alter#          
+  1.733e-09         25.0000        1               
