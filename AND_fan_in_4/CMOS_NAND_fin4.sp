@@ -25,10 +25,10 @@ mn4	s3	D	gnd	gnd	nmos	l=100n	w=240n
 
 *******************************************
 
-VinA	A gnd	dc	0
-VinB	B gnd	dc	0
-VinC	C gnd	dc	0
-VinD	D gnd	dc	0
+VinA	A gnd	dc	vddval
+VinB	B gnd	dc	vddval
+VinC	C gnd	dc	vddval
+VinD	D gnd	dc	vddval
 
 *******************************************
 
