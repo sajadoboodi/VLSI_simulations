@@ -26,8 +26,8 @@ mn3	s2	C	gnd	gnd	nmos	l=100n	w=360n
 
 vdd vdd	gnd dc vddval
 
-VinA	A gnd	dc	0
-VinB	B gnd	dc	0
+VinA	A gnd	dc	vddval
+VinB	B gnd	dc	vddval
 VinC	C gnd	dc	0
 
 .tran 10p 50n

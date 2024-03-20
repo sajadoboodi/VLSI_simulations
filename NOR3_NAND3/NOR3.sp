@@ -26,9 +26,9 @@ mn3	OUT	C	gnd	gnd	nmos	l=100n	w=120n
 
 vdd vdd	gnd dc vddval
 
-VinA	A gnd	dc	0
-VinB	B gnd	dc	0
-VinC	C gnd	dc	0
+VinA	A gnd	dc	vddval
+VinB	B gnd	dc	vddval
+VinC	C gnd	dc	vddval
 
 .tran 10p 50n
 .measure tran stpow avg power from=0n to=50n
