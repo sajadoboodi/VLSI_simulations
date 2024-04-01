@@ -1,0 +1,8 @@
+$DATA1 SOURCE='HSPICE' VERSION='P-2019.06-SP1-1 win64' PARAM_COUNT=0
+.TITLE 'ripple_carry_adder'
+ stpow            tpcout1          tpcout2          tpcout3         
+ tpcout4          tpcout5          tpcout6          tpcout7         
+ tpcout8          tpcout9          temper           alter#          
+  1.494e-06        1.812e-11        2.395e-11        9.578e-12      
+  1.595e-11        2.307e-11        1.278e-11        1.030e-11      
+  1.330e-11        1.025e-11         25.0000        1               
