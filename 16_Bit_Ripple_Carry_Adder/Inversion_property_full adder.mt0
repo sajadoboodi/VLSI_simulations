@@ -1,0 +1,34 @@
+$DATA1 SOURCE='HSPICE' VERSION='P-2019.06-SP1-1 win64' PARAM_COUNT=0
+.TITLE 'inversion_property_full adder'
+ tpcout1          tpcout2          tpcout3          tpcout4         
+ tpcout5          tpcout6          tpcout7          tpcout8         
+ tpcout9          tpcout10         tpcout11         tpcout12        
+ tpcout13         tpcout14         tpcout15         tpcout16        
+ tpcout17         tpcout18         tpcout19         tpcout20        
+ tpcout21         tpcout22         tpcout23         tpcout24        
+ tpcout25         tpcout26         tpcout27         tpcout28        
+ tpcout29         tpcout30         tpcout31         tpsum1          
+ tpsum2           tpsum3           tpsum4           tpsum5          
+ tpsum6           tpsum7           tpsum8           tpsum9          
+ tpsum10          tpsum11          tpsum12          tpsum13         
+ tpsum14          tpsum15          tpsum16          tpsum17         
+ tpsum18          tpsum19          tpsum20          tpsum21         
+ tpsum22          tpsum23          tpsum24          tpsum25         
+ tpsum26          tpsum27          av_pow           tp              
+ pdp              temper           alter#          
+  8.949e-11        1.169e-10        2.778e-10        2.307e-10      
+  2.304e-10        8.621e-11        9.598e-11        8.517e-11      
+  9.506e-11        8.491e-11        8.135e-11        8.455e-11      
+  9.816e-11        6.514e-11        2.702e-10        8.746e-11      
+  6.550e-11        6.361e-11        8.494e-11        7.781e-11      
+  2.585e-10        6.974e-10        7.726e-11        9.588e-11      
+  8.492e-11        1.260e-10        2.373e-10        1.168e-10      
+  1.168e-10        8.274e-11        6.378e-11        3.079e-10      
+  2.630e-10        2.594e-10        1.283e-10        1.147e-10      
+  1.276e-10        1.147e-10        1.050e-10        1.151e-10      
+  2.472e-10        2.365e-10        1.257e-10        1.211e-10      
+  1.348e-10        2.130e-10        2.549e-10        1.251e-10      
+  2.574e-10        1.139e-10        3.085e-10        7.272e-10      
+  1.275e-10        1.151e-10        2.757e-10        1.451e-10      
+  1.149e-10        9.370e-11        1.571e-04        7.240e-10      
+  1.138e-13         25.0000        1               

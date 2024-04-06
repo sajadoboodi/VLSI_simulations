@@ -1,0 +1,34 @@
+$DATA1 SOURCE='HSPICE' VERSION='P-2019.06-SP1-1 win64' PARAM_COUNT=0
+.TITLE '16_bit_ripple_carry_adder'
+ av_pow           tpcout1          tpcout2          tpcout3         
+ tpcout4          tpcout5          tpcout6          tpcout7         
+ tpcout8          tpcout9          tpcout10         tpcout11        
+ tpcout12         tpcout13         tpcout14         tpcout15        
+ tpcout16         tpcout17         tpcout18         tpcout19        
+ tpcout20         tpcout21         tpcout22         tpcout23        
+ tpcout24         tpcout25         tpcout26         tpcout27        
+ tpcout28         tpcout29         tpcout30         tpcout31        
+ tpsum1           tpsum2           tpsum3           tpsum4          
+ tpsum5           tpsum6           tpsum7           tpsum8          
+ tpsum9           tpsum10          tpsum11          tpsum12         
+ tpsum13          tpsum14          tpsum15          tpsum16         
+ tpsum17          tpsum18          tpsum19          tpsum20         
+ tpsum21          tpsum22          tpsum23          tpsum24         
+ tpsum25          tpsum26          tpsum27          tp              
+ pdp              temper           alter#          
+  1.106e-04        3.837e-11        1.088e-10        2.524e-10      
+  1.703e-10        2.489e-10        3.751e-11        4.056e-11      
+  3.329e-11        4.026e-11        3.335e-11        4.071e-11      
+  3.316e-11        4.060e-11        2.119e-11        2.421e-10      
+  3.760e-11        2.147e-11        1.877e-11        3.349e-11      
+  3.001e-11        2.413e-10        1.042e-10        3.496e-11      
+  4.038e-11        3.323e-11        1.143e-10        1.748e-10      
+  1.033e-10        1.033e-10        3.465e-11        1.774e-11      
+  2.823e-10        2.019e-10        2.784e-10        1.220e-10      
+  1.095e-10        1.224e-10        1.094e-10        9.931e-11      
+  1.254e-10        1.842e-10        2.553e-10        1.205e-10      
+  1.087e-10        1.215e-10        1.562e-10        1.833e-10      
+  1.119e-10        1.938e-10        6.634e-11        2.920e-10      
+  1.380e-10        1.224e-10        1.094e-10        2.106e-10      
+  1.314e-10        6.627e-11        4.725e-11        2.920e-10      
+  3.230e-14         25.0000        1               
