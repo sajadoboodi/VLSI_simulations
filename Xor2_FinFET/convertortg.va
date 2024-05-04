@@ -1,0 +1,66 @@
+//`PVA_SKIP_LRM 1
+module NFinFETIGtg_module(G1,G2,G);
+inout G1,G2;
+output G;
+//electrical G1,G2,G;
+voltage G1,G2,G, temp;
+// parameters use in module
+parameter real  p00 =  -0.0001413;
+parameter real	p10 =      0.5325;
+parameter real	p01 =      0.5151;
+parameter real	p20 =      0.4855;
+parameter real	p11 =      -1.106;
+parameter real	p02 =      0.5964;
+parameter real	p30 =      0.1479;
+parameter real	p21 =    -0.03365;
+parameter real	p12 =     -0.5367;
+parameter real	p03 =      -0.095;
+parameter real	p40 =       -1.43;
+parameter real	p31 =       1.839;
+parameter real	p22 =     -0.5109;
+parameter real	p13 =       2.242;
+parameter real	p04 =       -1.08;
+parameter real	p50 =      0.8414;
+parameter real	p41 =       -1.07;
+parameter real	p32 =      0.2698;
+parameter real	p23 =     -0.3414;
+parameter real	p14 =     -0.9266;
+parameter real	p05 =      0.6336;
+//analog $display("nfinfettg current G1=%e,G2=%e",I(G1),I(G2));
+analog	V(temp) <+ (p00 + p10*V(G1) + p01*V(G2) + p20*pow(V(G1),2) + p11*V(G1)*V(G2) + p02*pow(V(G2),2) + p30*pow(V(G1),3) + p21*pow(V(G1),2)*V(G2)+ p12*V(G1)*pow(V(G2),2) + p03*pow(V(G2),3) + p40*pow(V(G1),4) + p31*pow(V(G1),3)*V(G2) + p22*pow(V(G1),2)*pow(V(G2),2)+ p13*V(G1)*pow(V(G2),3) + p04*pow(V(G2),4) + p50*pow(V(G1),5) + p41*pow(V(G1),4)*V(G2) + p32*pow(V(G1),3)*pow(V(G2),2)+ p23*pow(V(G1),2)*pow(V(G2),3) + p14*V(G1)*pow(V(G2),4) + p05*pow(V(G2),5));
+analog  V(G) <+ (V(temp)> 1.2)?(1.1):((V(temp) < -0.3)?(-0.2):(V(temp)));
+endmodule
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+module PFinFETIGtg_module(G1,G2,G);
+inout G1,G2;
+output G;
+//electrical G1,G2,G;
+voltage G1,G2,G,temp;
+// main parameters
+parameter real    supply = 1;
+// parameters use in module
+parameter real    p00 =   0.0006506;
+parameter real    p10 =      0.4834;
+parameter real    p01 =      0.4996;
+parameter real    p20 =      -0.524;
+parameter real    p11 =      0.7008;
+parameter real    p02 =     -0.5111;
+parameter real    p30 =      0.4264;
+parameter real    p21 =       -1.02;
+parameter real    p12 =     -0.6979;
+parameter real    p03 =      0.1979;
+parameter real    p40 =       1.555;
+parameter real    p31 =       -2.48;
+parameter real    p22 =      0.5419;
+parameter real    p13 =      -1.966;
+parameter real    p04 =       1.066;
+parameter real    p50 =      0.7802;
+parameter real    p41 =      -1.049;
+parameter real    p32 =    0.003398;
+parameter real    p23 =     0.05535;
+parameter real    p14 =     -0.8116;
+parameter real    p05 =      0.5151;
+analog V(temp) <+ (supply+ p00 + p10*(V(G1)-supply) + p01*(V(G2)-supply) + p20*pow((V(G1)-supply),2) + p11*(V(G1)-supply)*(V(G2)-supply) + p02*pow((V(G2)-supply),2) + p30*pow((V(G1)-supply),3) + p21*pow((V(G1)-supply),2)*(V(G2)-supply)+ p12*(V(G1)-supply)*pow((V(G2)-supply),2) + p03*pow((V(G2)-supply),3) + p40*pow((V(G1)-supply),4) + p31*pow((V(G1)-supply),3)*(V(G2)-supply) + p22*pow((V(G1)-supply),2)*pow((V(G2)-supply),2)+ p13*(V(G1)-supply)*pow((V(G2)-supply),3) + p04*pow((V(G2)-supply),4) + p50*pow((V(G1)-supply),5) + p41*pow((V(G1)-supply),4)*(V(G2)-supply) + p32*pow((V(G1)-supply),3)*pow((V(G2)-supply),2)+ p23*pow((V(G1)-supply),2)*pow((V(G2)-supply),3) + p14*(V(G1)-supply)*pow((V(G2)-supply),4) + p05*pow((V(G2)-supply),5));
+analog  V(G) <+ (V(temp)> 1.2)?(1.1):((V(temp) < -0.3)?(-0.2):(V(temp)));
+endmodule
+

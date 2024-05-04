@@ -1,0 +1,48 @@
+
+ ---------------------------------------------------------
+|                                                         |
+|             Synopsys Unified Verilog-A (pVA)            |
+|                                                         |
+|              Machine Name: DESKTOP-QBM4H3K              |
+| Copyright (c) 2015 Synopsys Inc., All Rights Reserved.  |
+|                                                         |
+ ---------------------------------------------------------
+
+libepva built by pvamgr synmake_pva_build  on Thu Sep 26 11:41:22 CST 2019 - p4:
+HSP_HOME:   C:\synopsys\Hspice_P-2019.06-SP1-1
+HSP_ARCH is not set.
+HSP_GCC :   C:\synopsys\Hspice_P-2019.06-SP1-1\GNU\win64\bin\gcc
+HSP_GCC_VER:   5.2.0
+Working-Dir: D:\HW
+Args:        -p hsp -t spi -f D:/HW/lp_xor2.pvadir/pvaHDL.lis -o D:/HW/lp_xor2.pvadir 
+
+### optimize mode ###
+
+Begin of pVA compiling on Wed May  1 11:25:12 2024	
+
+Parsing 'convertor.va'
+Parsing 'convertortg.va'
+
+End of pVA compiling on Wed May  1 11:25:12 2024	
+
+
+End of build pVA DB on Wed May  1 11:25:12 2024	
+
+
+D:\HW\lp_xor2.pvadir\pvaRTL_win64.dll is reused
+
+End of pVA elaboration on Wed May  1 11:25:12 2024	
+
+*pvaI* Creating VA module (NFinFETIG_module) for instance XN4.X1 with gmd reduction
+*pvaI*        termCount=6 diwSize=19 probeSize=28 Qsize=0 Isize=4
+End of GMD creation on Wed May  1 11:25:12 2024	
+
+*pvaI* Creating VA module (PFinFETIG_module) for instance XP4.X1 with gmd reduction
+*pvaI*        termCount=6 diwSize=19 probeSize=29 Qsize=0 Isize=4
+End of GMD creation on Wed May  1 11:25:12 2024	
+
+End of pVA setup    on Wed May  1 11:25:12 2024	
+
+Begin of pVA simulation on Wed May  1 11:25:12 2024	
+
+*pvaI* minimum timestep = 1e-21

@@ -1,0 +1,6 @@
+$DATA1 SOURCE='HSPICE' VERSION='P-2019.06-SP1-1 win64' PARAM_COUNT=0
+.TITLE 'ig_xor_2_st'
+ pow_vdd          pow_va           pow_vabar        pow_b           
+ pow_bbar         avg_sum          temper           alter#          
+ -7.503e-09       -1.267e-11          0.            -1.267e-11      
+    0.            -7.528e-09         25.0000        1               
